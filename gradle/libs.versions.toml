@@ -1,0 +1,131 @@
+[versions]
+accompanist = "0.30.1"
+android-gradle-plugin = "8.1.0"
+androidx-core = "1.10.1"
+androidx-hilt = "1.0.0"
+androidx-lifecycle = "2.6.1"
+coil = "2.4.0"
+compose-bom = "2023.06.01"
+compose-compiler = "1.5.1"
+dagger = "2.47"
+datadog = "1.19.3"
+datadogGradlePlugin = "1.10.0"
+datastore = "1.0.0"
+desugar_jdk_libs = "2.0.3"
+detekt = "1.23.0"
+detektCompose = "0.0.26"
+gson = "2.10.1"
+hiltCompiler = "1.0.0"
+jwtDecode = "2.0.2"
+# @keep
+kotlin = "1.9.0"
+kotlinx-collections-immutable = "0.3.5"
+kotlinx-datetime = "0.4.0"
+kotlinx-serialization = "1.5.1"
+ktor = "2.3.2"
+leakcanary = "2.12"
+mrzJava = "0.8"
+navigation = "2.7.0-rc01"
+nvI18n = "1.28"
+signaturePad = "0.1.2"
+timber = "5.0.1"
+versionCatalogUpdate = "0.8.1"
+versions = "0.47.0"
+zxing = "3.5.1"
+
+[libraries]
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
+androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hiltCompiler" }
+androidx-hilt-navigationCompose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "androidx-hilt" }
+androidx-lifecycle-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
+compose-activity = { module = "androidx.activity:activity-compose" }
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "compose-bom" }
+compose-compiler = { module = "androidx.compose.compiler:compiler", version.ref = "compose-compiler" }
+compose-foundation = { module = "androidx.compose.foundation:foundation" }
+compose-material = { module = "androidx.compose.material:material" }
+compose-material-icons-extended = { module = "androidx.compose.material:material-icons-extended" }
+compose-tooling = { module = "androidx.compose.ui:ui-tooling" }
+compose-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+compose-ui-geometry = { module = "androidx.compose.ui:ui-geometry" }
+compose-ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+compose-ui-text = { module = "androidx.compose.ui:ui-text" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+compose-ui-tooling-data = { module = "androidx.compose.ui:ui-tooling-data" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+compose-ui-unit = { module = "androidx.compose.ui:ui-unit" }
+compose-ui-util = { module = "androidx.compose.ui:ui-util" }
+coroutines-android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+dagger-android = { module = "com.google.dagger:hilt-android", version.ref = "dagger" }
+dagger-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "dagger" }
+datadog-android-compose = { module = "com.datadoghq:dd-sdk-android-compose", version.ref = "datadog" }
+datadog-android-core = { module = "com.datadoghq:dd-sdk-android", version.ref = "datadog" }
+datadog-android-ktx = { module = "com.datadoghq:dd-sdk-android-ktx", version.ref = "datadog" }
+datadog-android-timber = { module = "com.datadoghq:dd-sdk-android-timber", version.ref = "datadog" }
+datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
+desugar_jdk_libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
+detekt-compose = { module = "com.twitter.compose.rules:detekt", version.ref = "detektCompose" }
+detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+jwtDecode = { module = "com.auth0.android:jwtdecode", version.ref = "jwtDecode" }
+kotlinx-collection-immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlinx-collections-immutable" }
+kotlinx-dateTime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
+kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+ktor-client-contentNegotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
+ktor-client-okHttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+ktor-client-serialization = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+leakcanary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanary" }
+mrzJava = { module = "com.github.bordertech.mrz:mrz-java", version.ref = "mrzJava" }
+navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
+nvI18n = { module = "com.neovisionaries:nv-i18n", version.ref = "nvI18n" }
+signaturePad = { module = "se.warting.signature:signature-pad", version.ref = "signaturePad" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+zxing-core = { module = "com.google.zxing:core", version.ref = "zxing" }
+
+[bundles]
+app-ui = [
+    "accompanist-permissions",
+    "androidx-core",
+    "androidx-lifecycle-compose",
+    "androidx-lifecycle-livedata-ktx",
+    "androidx-lifecycle-process",
+    "androidx-lifecycle-runtime",
+    "androidx-lifecycle-viewmodel",
+    "coil-compose",
+    "compose-activity",
+    "compose-compiler",
+    "compose-foundation",
+    "compose-material",
+    "compose-material-icons-extended",
+    "compose-tooling",
+    "compose-ui",
+    "navigation-compose",
+]
+datadog = [
+    "datadog-android-compose",
+    "datadog-android-core",
+    "datadog-android-ktx",
+    "datadog-android-timber",
+]
+ktor-common = [
+    "ktor-client-contentNegotiation",
+    "ktor-client-core",
+    "ktor-client-logging",
+    "ktor-client-serialization",
+]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "dagger" }
+datadogGradlePlugin = { id = "com.datadoghq.dd-sdk-android-gradle-plugin", version.ref = "datadogGradlePlugin" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+versionCatalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "versionCatalogUpdate" }
+versions = { id = "com.github.ben-manes.versions", version.ref = "versions" }
