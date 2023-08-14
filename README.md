@@ -1,8 +1,8 @@
 
 ### Environment:
-MF360 with installed YSDK apk version 5.5.6.7281721.
+MF360 with installed YSDK apk version YSDK-5.5.7.8080920_productNormal_release.apk.
 
-Project uses ysdk_5.5.d312d1f_7271727.jar
+Project uses ysdk_5.5.ab7c125_8071730.jar
 
 ### STR:
 Click on Scan button
